@@ -1,0 +1,77 @@
+/* section element */
+
+Header, Main{
+    background-color:#061130;
+    color: whitesmoke;
+}
+
+Header{
+    padding-bottom: 5vh ;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+Main{
+    padding: 85px 152px;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+u{
+    color: #1c4bc4;
+}
+
+
+/* Section Class */
+
+.white-text{
+    color: whitesmoke;
+}
+
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-space{
+    margin-left: .5vw;
+    margin-right: .5vw;
+}
+
+.chat-button{
+    background-color: #1c4bc4;
+    color: whitesmoke;
+    border-radius: 25px;
+    max-width: fit-content;
+    padding: 2px 15px;
+}
+
+.map-image{
+    max-height: 70vh;
+    max-width: 50vw;
+}
+
+.ser{
+    color: #fafd61;
+    font-size: large;
+    margin: 0;
+}
+
+.final-text{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
